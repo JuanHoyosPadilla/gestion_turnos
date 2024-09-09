@@ -1,0 +1,23 @@
+.container-vista {
+    background-color: rgb(56, 56, 56);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+   border-radius: 10px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+.table th {
+    background-color: #f4f4f453;
+}
