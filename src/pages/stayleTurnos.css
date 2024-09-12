@@ -1,0 +1,35 @@
+.container-date{
+    
+    height: 100px;
+    background-color: rgb(59, 58, 58);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.container-date h4 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.container-date .input {
+    display: flex;
+    flex-direction: column;
+}
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  .container-date div input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    
+    
+  }
