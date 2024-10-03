@@ -11,11 +11,7 @@ export default function Turnos() {
     const [startDate, setStartDate] = useState(null)
     const [endDate, setEndDate] = useState(null)
     const [error, setError] = useState('')
-
-
-    
-
-    
+  
     const handleStartDateChange = (date) => {
         setStartDate(date)
         validateDateRange(date,setEndDate)
