@@ -1,15 +1,21 @@
 .container-horario {
-    background-color: rgb(56, 56, 56);
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
+    
 
+    width: 100%; /* Asegúrate de que ocupe todo el ancho disponible */
+    max-width: 1200px; /* Limita el ancho máximo del contenedor */
+    padding: 10px; /* Espacio interno */
+    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+    background-color: rgb(56, 56, 56);
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    
 }
 .table {
     width: 100%;
     border-collapse: collapse;
    border-radius: 10px;
    color: white;
+   font-size: 0.9rem;
 }
 
 .table th, .table td {

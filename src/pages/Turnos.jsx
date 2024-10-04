@@ -87,7 +87,7 @@ export default function Turnos() {
                 />
             </div>
         </div>
-        <div>
+        <div >
             {error && <p style={{color:'red'}}>{error}</p> }
             {
               !error && startDate && endDate ? <> <h3>Horario semanal  </h3>
