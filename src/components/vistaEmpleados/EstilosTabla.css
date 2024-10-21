@@ -15,9 +15,42 @@
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
-    
 }
 
 .table th {
     background-color: #f4f4f453;
+}
+
+.btn-acction {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.btn-acction button {
+    background-color: rgba(0, 0, 0, 0.174);
+}
+
+.contenedor-editar form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.contenedor-editar form label input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contenedor-editar form .btn {
+    display: flex;
+    gap: 1rem;
 }
